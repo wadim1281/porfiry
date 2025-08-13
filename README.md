@@ -118,7 +118,7 @@ Environment variables:
   - `LOGLEVEL` — logging level
 - OCR service `ocr.py`:
   - `OLLAMA_URL` (default `http://localhost:11434`) — Ollama endpoint
-- Streamlit UI `front3.py`:
+- Streamlit UI `porfiry.py`:
   - `OLLAMA_URL` — used by the Markdown combiner’s Executive Summary generator
   - API endpoints are set in code:
     - `API_LL = "http://127.0.0.1:8000"`
@@ -157,14 +157,3 @@ Porfiry supports multiple paths depending on your input and the complexity of sc
 - **Hybrid.**
   - Mix and match: use screenshots where they speak for themselves; add OCR snippets for log‑heavy parts; paste text blocs for long narratives. Re‑run generation and use follow‑up prompts to iterate quickly.
 
-
-
-## Notes
-
-- Image inlining replaces placeholders like `![alt](screenshotN.png)` with `data:image/...;base64,...` so the final Markdown is a single portable file.
-- OCR output is Markdown; you can insert it into the draft as‑is.
-- All processing is local; network calls go only to your local Ollama instance.
-
-
-## License
-Add your project license (e.g., MIT). If missing, include a `LICENSE` file.
