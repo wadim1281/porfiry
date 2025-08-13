@@ -37,6 +37,12 @@ All components are designed for fully offline operation.
 
 ## Requirements
 
+| Backend         | Minimum Hardware Requirement |
+|-----------------|------------------------------|
+| **Apple Metal** | ≥M2 (pro) with ≥32 GB unified memory |
+| **CUDA**        | ≥24 GB VRAM (e.g., NVIDIA RTX 3090) |
+| **General**     | Capable of running the heaviest target model (e.g., Gemma3:27B requires ~17 GB VRAM) |
+
 - Python 3.10+
 - Ollama installed and models pulled:
   - `gemma3:27b` — report/kill‑chain generation (vision)
