@@ -33,7 +33,7 @@ STREAMLIT="$VENV/bin/streamlit"
 
 # Start services bound to localhost only
 echo "[*] Start backend_en (127.0.0.1:$PORT_API) ..."
-"$UVICORN" backend_en:app --host 127.0.0.1 --port "$PORT_API" --reload & BE_PID=$!
+"$UVICORN" backend:app --host 127.0.0.1 --port "$PORT_API" --reload & BE_PID=$!
 
 echo "[*] Start ocr (127.0.0.1:$PORT_OCR) ..."
 "$UVICORN" ocr:app --host 127.0.0.1 --port "$PORT_OCR" --reload & OCR_PID=$!
@@ -47,4 +47,4 @@ trap cleanup EXIT INT TERM
 
 # UI in foreground
 echo "[*] Start UI (http://localhost:$PORT_UI)"
-exec "$STREAMLIT" run "$REPO/front3.py" --server.port "$PORT_UI" 
+exec "$STREAMLIT" run "$REPO/porfiry.py" --server.port "$PORT_UI" 
