@@ -96,8 +96,6 @@ pip install \
   streamlit streamlit-sortables streamlit-markdown streamlit-extras streamlit-draggable-list \
   requests httpx tinydb psutil ollama pillow pydantic
 ```
-Note: package names map to imports used in code (`streamlit_sortables` → `streamlit-sortables`, `streamlit_markdown` → `streamlit-markdown`, `streamlit_extras` → `streamlit-extras`, `st_draggable_list` → `streamlit-draggable-list`).
-
 4) Start services
 ```bash
 # 1) LLM API
