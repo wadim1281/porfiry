@@ -3,7 +3,7 @@
   <img src="static/logo.png" alt="Porfiry logo" width="280" />
 </p>
 
-# AI‑Assisted Pentest Report Generator (Porfiry)
+# AI‑Assisted Pentest Report Generator
 
 
 
