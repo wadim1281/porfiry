@@ -9,8 +9,6 @@
 
 Generate polished, image‑rich penetration‑testing reports entirely offline from a handful of screenshots and a rough draft.
 
-<sub>“Screenshots + draft → Porfiry → Ready‑to‑deliver Markdown”</sub>
-
 > Note: This is an early alpha (concept) release. Expect rough edges; feedback is welcome.
 
 
