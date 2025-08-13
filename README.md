@@ -23,7 +23,7 @@ Generate polished, image‑rich penetration‑testing reports entirely offline f
 - **Multimodal LLM chain.** Vision LLM for screenshots, optional OCR model for hard images.
 - **Late‑fusion OCR.** Extract small UI text/logs via a dedicated OCR model and blend into the draft before generation.
 - **AI assistant for edits.** Follow‑up prompts refine the generated report.
-- **Local models via Ollama.** Works on CPU or GPU (NVIDIA / Apple Silicon via Metal) depending on your Ollama setup.
+- **Local models.** Works on CPU or GPU (NVIDIA / Apple Silicon via Metal) depending on your Ollama setup.
 
 
 ## Architecture
