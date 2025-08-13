@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#4400FF"
+# при желании — остальная палитра:
+#backgroundColor = "#808080"
+#secondaryBackgroundColor = "#262730"
+# textColor = "#FAFAFA"
+[server]
+enableStaticServing = true
