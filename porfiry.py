@@ -848,7 +848,7 @@ class MarkdownCombiner:
     def stream_executive_summary(self, markdown_text: str):
         """Generate executive summary using Ollama streaming."""
         prompt = (
-            "Ты — эксперт по кибербезопасности, который готовит раздел Executive Summary для отчёта о внутреннем/внешнем penetration test. Твоя аудитория — руководители и не-технические стейкхолдеры. Используй ясный деловой русский язык, избегай жаргона без расшифровки. Ниже представленые найденные уязвиомсти\n\n" + markdown_text
+            "You are a cybersecurity expert preparing the Executive Summary section of an internal/external penetration test report. Your audience is executives and non-technical stakeholders. Use clear business English, avoid jargon without explanation. Below are the vulnerabilities found\n\n" + markdown_text
         )
         
         payload = {
